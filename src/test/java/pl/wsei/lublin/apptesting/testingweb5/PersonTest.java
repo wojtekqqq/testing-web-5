@@ -9,16 +9,14 @@ class PersonTest {
     public void test_person_default_constructor() {
         Person testClass = new Person();
 
-        testClass.setlName("Maria");
+        testClass.setmName("Maria");
         assertEquals("Maria", testClass.getmName());
 
-        testClass.setlName("Jan");
+        testClass.setfName("Jan");
         assertEquals("Jan", testClass.getfName());
 
         testClass.setlName("Rokita");
         assertEquals("Rokita", testClass.getlName());
-        
-
 
     }
 
